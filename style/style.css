@@ -200,7 +200,61 @@ button#spical{
 
 
 
-
+/* habit-section style */
+.main-section{
+    max-width: 1440px;
+    background-color: black;
+    padding-top: 100px;
+  }
+  .habit-contant{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  .habit-title{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+    margin-top: 0;
+  }
+  .habit-descript{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  .habit-img-content{
+    width: 1044px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .habits-image{
+    width: 231px;
+    height: 274px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .habits-image h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    text-align:center;
+    margin:20px 0 6px 0;
+  }
+  .habits-image p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .habits-image img{
+    border-radius: 50%;
+  }
 
 
 
@@ -307,5 +361,30 @@ button#spical{
       margin-top:-274px;
       border-radius: 8px;
     }
+/*responsive banner parts ends */
+    
+/* habit part style */
+  .main-section{
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+  }
+  .habit-contant{
+    width: 318px;
+    height: 124px;
+  }
+  .habit-title{
+    font-size: 2rem;
+  } 
+  .habit-img-content{
+    flex-direction: column;
+    width: 338px;
+    height: 1150px;
+  }
+  .habits-image{
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  /* habid section ends */
 }
-  /*responsive banner parts ends */
+  
