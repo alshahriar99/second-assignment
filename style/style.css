@@ -419,6 +419,139 @@ option{
     font-weight: 600;
 }
 
+/* Workout at home section */
+section.Workout-section{
+  max-width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 15px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.video-thumbnails{
+  position: relative;
+}
+.video-thumbnail{
+  position: relative;
+}
+.play-icon{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 50%;
+  right: 50%;
+  overflow: hidden;
+  color: rgb(206, 65, 65);
+  font-size: 35px;
+}
+.video-thumbnails{
+  position: relative;
+}
+.video-buttom{
+  left:30%;
+  bottom:12%;
+}
+.video-thumbnail img{
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+}
+.workout-right{
+  width: 40%;
+  padding: 20px;
+  margin-top: 20px;
+  
+}
+.workout-right h1{
+  font-size: 35px;
+  letter-spacing: 2px;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+.workout-right p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #f0eeee; 
+}
+.Started{
+  color: #f0eeee;
+  margin-top: 30px;
+}
+
+
+  /* meetOur-team-section style */
+  .teem-section-container{
+    padding-bottom: 70px;
+  }
+  
+  .teem-section-contant{
+    width: 671px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  .teem-section-contant h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    margin: 80px 0 14px 0;
+  }
+  .teem-section-contant p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
+  .teem-image img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),
+  
+  }
+  .teem-image{
+    max-width:1060px;
+    height: 590px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 55px;
+  }
+
+  .img-container{
+    position: relative;
+    display: inline-block;
+  }
+  .overly{
+    position: absolute;
+    top: 77%;
+    left: 5%;
+    color: #ffffff;
+  }
+  .overly p{
+    color: #cccccc;
+    text-align: left;
+    font-size: 18px;
+  }
+
+
+
+.hide{
+  display: none;
+}
+
+
 
 
 
@@ -605,6 +738,54 @@ option{
     }
     .calculate-btn{
       margin-top: 30px;
+    }
+    /*Workout at home section style  */
+    section.Workout-section{
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .video-thumbnails{
+      width: 300px;
+      height: auto;
+      margin: 0 auto;
+    }
+    .video-buttom{
+      left:0%;      
+    }
+    .workout-right{
+      width: 100%;
+      padding: 30px;
+      margin-top: 0px;     
+    }
+
+    /* meetOur-team-section */
+    .teem-section-container{
+      padding-bottom: 10px;
+    }
+    .teem-section-contant{
+      width: 309px;
+      height: 124px;
+    }
+    .teem-section-contant h1{
+      color: rgb(255, 255, 255);
+      font-size: 2rem;
+      font-weight: 900;
+      text-align: center;
+      margin: 80px 0 14px 0;
+    }
+    .teem-image{
+      grid-template-columns: repeat(1, 1fr);
+      width: 90%;
+      height: auto;
+      margin-top: 20px;
+    }
+    .teem-image img{
+      width: 350px;
+      height: 272px;
     }
 }
   
