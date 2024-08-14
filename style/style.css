@@ -118,6 +118,7 @@ nav li a{
   color: rgba(255, 255, 255, 0.5);
   font-size:1rem;
   font-weight: 400;
+  margin-bottom: 17px;
 }
 .download{
   padding: 16px 40px;
@@ -475,7 +476,7 @@ section.Workout-section{
 .workout-right p{
   font-size: 16px;
   font-weight: 400;
-  color: #f0eeee; 
+  color: rgba(255, 255, 255, 0.5)
 }
 .Started{
   color: #f0eeee;
@@ -546,7 +547,75 @@ section.Workout-section{
   }
 
 
+/* footer section style */
 
+footer {
+  background-color: #202020;
+  color: #fff;
+  padding: 45px 15px;
+  
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 1059px;
+  height: 230px;
+  margin: 0 auto;
+}
+.footer-brand{
+  width: 443px;
+  height: 176px;
+
+}
+.footer-brand h1 {
+  color: #E6533C;
+  font-size: 70px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.5);;
+}
+
+.footer-contant {
+  width: 17%;
+  margin-bottom: 20px;
+}
+
+.footer-contant h2{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer-contant ul {
+  list-style: none;
+}
+
+.footer-contant ul li {
+  color:rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+hr{
+  width: 1059px;
+  height: 0;
+  margin: 0 auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 30px;
+}
+.footer-bottom {
+  padding-top: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  color:rgba(255, 255, 255, 0.5);
+}
+ 
 .hide{
   display: none;
 }
@@ -764,7 +833,7 @@ section.Workout-section{
 
     /* meetOur-team-section */
     .teem-section-container{
-      padding-bottom: 10px;
+      padding-bottom: 70px;
     }
     .teem-section-contant{
       width: 309px;
@@ -779,7 +848,7 @@ section.Workout-section{
     }
     .teem-image{
       grid-template-columns: repeat(1, 1fr);
-      width: 90%;
+      width: 95%;
       height: auto;
       margin-top: 20px;
     }
@@ -787,5 +856,20 @@ section.Workout-section{
       width: 350px;
       height: 272px;
     }
+    /*  footer section */
+    .footer-container{
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+    }
+    .footer-brand{
+      width: 317px;
+      height: 200px;
+    }
+    .footer-contant{
+      width: 100%;
+    }
+    hr{
+       width: 354px;
+    }
 }
-  
